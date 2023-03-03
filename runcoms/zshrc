@@ -19,3 +19,5 @@ fi
 bindkey -v
 bindkey -M vicmd v edit-command-line
 
+export ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+bindkey '^N' autosuggest-accept
